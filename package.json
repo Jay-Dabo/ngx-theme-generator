@@ -1,0 +1,39 @@
+{
+  "name": "ngx-theme-generator",
+  "version": "1.0.0",
+  "description": "Color theme generator for Angular 2+",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "svg",
+    "gif",
+    "png",
+    "jpg",
+    "canvas",
+    "pixels",
+    "rgb",
+    "rgba"
+  ],
+  "author": "Jeffrey Dabo",
+  "repository": "https://github.com/Jay-Dabo/ngx-theme-generator.git",
+  "license": "MIT",
+  "dependencies": {
+    "chroma-js": "^2.4.2",
+    "get-image-colors": "^4.0.1",
+    "get-pixels": "^3.3.3",
+    "get-rgba-palette": "^2.0.1",
+    "get-svg-colors": "^2.0.0",
+    "pify": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "mocha": "^10.2.0",
+    "standard": "^17.0.0",
+    "standard-markdown": "^7.1.0",
+    "typescript": "^5.0.4"
+  }
+}
